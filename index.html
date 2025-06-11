@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Vault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <a href="meal-planner.html">Go to Meal Planner →</a>
+  <h1>📖 My Recipe Vault</h1>
+
+  <form id="recipe-form">
+    <input type="text" id="recipe-name" placeholder="Recipe name" required />
+    <input type="text" id="recipe-tags" placeholder="Tags (comma separated, e.g. dinner, quick)" />
+    <textarea id="recipe-ingredients" placeholder="Ingredients (one per line)" required></textarea>
+    <textarea id="recipe-steps" placeholder="Instructions" required></textarea>
+    <button type="submit">Save Recipe</button>
+  </form>
+
+  <h2>Saved Recipes</h2>
+  <div id="recipe-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

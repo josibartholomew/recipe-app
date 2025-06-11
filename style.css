@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+    max-width: 600px;
+  }
+  
+  textarea, input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #f9f9f9;
+  }
+  
